@@ -22,8 +22,9 @@ return (
         </span>
         <input 
             className="form-control"
-            type="date"
+            type="text"
             name="date" 
+            placeholder="YYYY-MM-DD"
             onChange={handleInputChange}
             id="date" 
             value={values.date}

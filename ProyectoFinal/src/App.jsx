@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>NASA Astronomy Picture of the Day</h1>
+      <h1 style={{textAlign: 'center'}}>NASA Astronomy Picture of the Day</h1>
       <hr />
       <SearchDate dates={dates} setDates={setDates} />
       <hr />
