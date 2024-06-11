@@ -37,8 +37,8 @@ export const buttons = [
     columns: 1
   } ,{
     class: 'operator',
-    label: 'X',
-    function: 'setOperador',
+    label: 'x',
+    function: 'setOperator',
     columns: 1
   }], [ {
     class: 'numeric',
